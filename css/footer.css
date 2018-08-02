@@ -1,0 +1,50 @@
+/*------------------------------------*\
+  footer
+\*------------------------------------*/
+.footer-icon{
+     font-size: 13pt;
+    margin-left: 12px;
+    color: white;
+    vertical-align: text-bottom;
+}
+
+footer{
+	padding:2%;
+}
+
+footer ul{
+  margin-top:5px;
+}
+
+footer ul li{
+	font-family: Ubuntu-Regular;
+	margin-left: 5px;
+}
+
+footer p{
+  margin-top:5px;
+      font-size: initial;
+    line-height: initial ;
+}
+
+@media only screen and (max-width: 768px){
+  footer p.left, footer a.left{
+	float:none;
+  }
+
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  footer .flex{
+    flex-direction: column;
+  }
+  
+  footer p.left, footer a.left{
+  float:none;
+  }
+
+}
+
+
+

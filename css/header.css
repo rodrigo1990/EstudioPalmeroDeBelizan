@@ -1,0 +1,358 @@
+/*------------------------------------*\
+  Header
+\*------------------------------------*/
+.green{
+  color:green !important;
+}
+
+.red{
+  color:red !important;
+}
+
+
+nav{
+      background-color: white;
+    height: 88px;
+    font-family: Ubuntu-Regular;
+    font-weight: bold;
+}
+
+.nav-link {
+	color:black !important;
+	transition:color 0.5s;
+}
+
+ul.main-nav{
+	margin-top:26px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover,.nav>li>a>i:hover {
+    text-decoration: none;
+    background-color: transparent;
+  
+}
+
+.main-nav i{
+	color:#BD1B21;
+}
+
+
+.main-nav>li.active>a{
+     color:#BD1B21 !important;
+    transition:color 0.5s;
+}
+
+.main-nav>li>a:after {
+        content: "";
+        display: block;
+        background-color: #BD1B21;
+        height: 2px;
+        width: 0%;
+        -webkit-transition: 0.2s width;
+        transition: 0.2s width;
+
+    }
+.main-nav>li>a:not(.diferente):hover:after, .main-nav>li.active>a:after {
+        width: 100%;
+
+}
+
+@-moz-document url-prefix() {
+  .navbar-right {
+    margin-right: -30px;
+}
+}
+
+@supports (-ms-ime-align:auto) {
+    .nav > li > a{
+      padding:10px 4px !important;
+    }
+}
+
+
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
+.picar:hover {
+  animation: bounce 1s infinite;
+}
+
+.picar-siempre{
+ animation: bounce 1s infinite; 
+}
+
+/*------------------------------------*\
+  Anura
+\*------------------------------------*/
+#click2call a:hover {
+    opacity: 0.5;
+}
+#click2call_callbtn img {
+    height: 200px;
+}
+#click2call_hupbtn img {
+    height: 150px;
+}
+#click2call_msgdiv {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+/*MOBILE NAV*/
+
+.mobile-nav>li.active>a{
+     color:#BD1B21 !important;
+    transition:color 0.5s;
+}
+
+/*.mobile-nav>li>a:after {
+        content: "";
+        display: block;
+        background-color: #BD1B21;
+        height: 2px;
+        width: 0%;
+        -webkit-transition: 0.2s width;
+        transition: 0.2s width;
+  
+    }*/
+.mobile-nav>li>a:hover:after, .mobile-nav>li.active>a:after {
+        width: 90%;
+}
+
+
+.mobile-nav>li>a>i{
+  color:#911B21;
+}
+
+.mobile-nav .left{
+  margin-left: -2px;
+}
+
+/*END OF MOBILE NAV*/
+.nav-collapse span, .nav-collapse span:before, .nav-collapse span:after {
+    height: 4px;
+    background: #10161A;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+
+
+
+
+.mobile-nav{
+    display:none;
+
+  }
+
+
+
+
+
+
+@media only screen and (max-width:767px){
+  .nav-collapse{
+    padding:25px 25px;
+  }
+
+  .main-nav{
+    display:none;
+  }
+  
+  .mobile-nav{
+    display:none;
+    position:fixed;
+    background-color: white;
+    top:0px;
+    height:100%; 
+    right: 0px;
+    overflow-y:scroll;
+  }
+
+  .nav-collapse span {
+    display: block;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    float:right;
+    width: 25px;
+    margin-top: 25px;
+}
+
+
+
+.nav-collapse span:before {
+    -webkit-transform: translate(0%, 10px);
+    -ms-transform: translate(0%, 10px);
+    transform: translate(0%, 10px);
+}
+
+.nav-collapse span, .nav-collapse span:before, .nav-collapse span:after {
+    height: 4px;
+    background: #10161A;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+.nav-collapse span:before, .nav-collapse span:after {
+    content: "";
+    display: block;
+}
+
+.nav-collapse span:after {
+    -webkit-transform: translate(0%, -14px);
+    -ms-transform: translate(0%, -14px);
+    transform: translate(0%, -14px);
+}
+
+.nav-collapse span, .nav-collapse span:before, .nav-collapse span:after {
+    height: 4px;
+    background: #10161A;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+.nav-collapse span:before, .nav-collapse span:after {
+    content: "";
+    display: block;
+}
+
+.navbar{
+  width: 100vw;
+}
+
+
+.mobile-nav .mobile-nav-header{
+  display: block;
+  height: 50px;
+  width: 100%;
+  padding: 10px 15px;
+
+}
+
+.mobile-nav .mobile-nav-header i{
+  display: inline-block;
+  float: right;
+  margin-right: 8px;
+}
+
+
+.mobile-nav .mobile-nav-header h4{
+  display:inline-block;
+  float:left;
+}
+
+
+}
+
+@media only screen and (min-width:768px) and (max-width: 1024px){
+  .nav-collapse{
+    padding:25px 25px;
+  }
+
+  .main-nav{
+    display:none;
+  }
+  
+  .mobile-nav{
+    display:none;
+    position:fixed;
+    background-color: white;
+    top:0px;
+    height:100%; 
+    right: 0px;
+    width: 385px;
+  }
+
+  .nav-collapse span {
+    display: block;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    float:right;
+    margin-right: 0;
+    width: 25px;
+    margin-top: 25px;
+}
+
+
+
+.nav-collapse span:before {
+    -webkit-transform: translate(0%, 10px);
+    -ms-transform: translate(0%, 10px);
+    transform: translate(0%, 10px);
+}
+
+.nav-collapse span, .nav-collapse span:before, .nav-collapse span:after {
+    height: 4px;
+    background: #10161A;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+.nav-collapse span:before, .nav-collapse span:after {
+    content: "";
+    display: block;
+}
+
+.nav-collapse span:after {
+    -webkit-transform: translate(0%, -14px);
+    -ms-transform: translate(0%, -14px);
+    transform: translate(0%, -14px);
+}
+
+.nav-collapse span, .nav-collapse span:before, .nav-collapse span:after {
+    height: 4px;
+    background: #10161A;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+}
+.nav-collapse span:before, .nav-collapse span:after {
+    content: "";
+    display: block;
+}
+
+.navbar{
+  width: 100vw;
+}
+
+
+.mobile-nav .mobile-nav-header{
+  display: block;
+  height: 50px;
+  width: 93%;
+  padding: 10px 15px;
+
+}
+
+.mobile-nav .mobile-nav-header i{
+  display: inline-block;
+  float: right;
+  margin-right: 8px;
+}
+
+
+.mobile-nav .mobile-nav-header h4{
+  display:inline-block;
+  float:left;
+}
+
+.navbar-header{
+	width: 100%;
+}
+
+
+}

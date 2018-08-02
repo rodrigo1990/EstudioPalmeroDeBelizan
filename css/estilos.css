@@ -1,0 +1,1212 @@
+/*------------------------------------*\
+	General
+\*------------------------------------*/
+body{
+  overflow-x:hidden !important;
+}
+
+
+h1{
+   color:#BD1B21;
+  font-family: RobotoCondensed-Bold;
+  letter-spacing: 2px;
+  font-family: 4.5rem;
+}
+
+h4,h3,h5{
+  color:#BD1B21;
+  font-family: RobotoCondensed-Bold;
+}
+
+h1>span,h4>span{
+  font-family:RobotoCondensed-Regular;
+}
+
+
+
+
+hr{
+  background-color:#BD1B21;
+  height: 4px;
+  width: 75px;
+  margin-top: 1px !important;
+}
+
+p{
+  font-size: 1.57rem;
+  font-family:Ubuntu-Light;
+  line-height: 210%;
+}
+
+p>span{
+  color:#BD1B21;
+}
+
+.flex{
+      display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: stretch;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: center;
+}
+ul{
+  list-style: none;
+  padding:0;
+}
+.left{
+	float:left;
+}
+
+.right{
+  float:right;
+}
+
+
+
+.background{
+
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.overlap {
+    display: none;
+    width: 100vw;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 1000;
+    position: fixed;
+}
+
+#slider-principal{
+  margin-top: 5%;
+}
+
+#slider-principal .info-cont{
+      position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 65px;
+    padding-right: 180px;
+}
+
+#slider-principal .info-cont h1{
+  font-size: 5rem;
+}
+
+
+
+.btn{
+  padding: 6px;
+  width: 74px;
+  color: white;
+  cursor:pointer;
+  color:#BD1B21; 
+  transition:background-color 0.25s;
+  font-family: Montserrat-Bold;
+  background-color: #E6E7E8;
+}
+
+.btn:hover{
+  background-color: #BD1B21;
+  color:white;
+  transition:background-color 0.25s;
+}
+
+
+i{
+  font-size: 15pt !important;
+}
+
+
+.inline{
+  display:inline-block;
+  text-align: center !important;
+}
+
+
+label{
+  font-family: Ubuntu-Regular;
+  color:grey;
+  margin-bottom: 0px ;
+}
+
+
+
+.icon-circle{
+    box-sizing:border-box;
+  background:#666;
+    line-height:80px;
+        
+  background: #3498DB;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.46);
+  -webkit-border-radius:1100%;
+  -moz-border-radius:100%;
+  -o-border-radius:100%;
+  border-radius:100%;
+  border:6px solid #fff;
+  text-align:center;
+  vertical-align:middle;
+  width:80px;
+  height:80px;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  -o-transition:.5s;
+  transition:.5s;
+}
+
+.form-control{
+    margin-bottom: 9px;
+    font-family: Ubuntu-Regular;
+    font-size: 1.2rem;
+}
+
+.nav>li>a {
+    padding: 10px 13px !important;
+    cursor:pointer;
+}
+
+@media only screen and (max-width: 768px){
+  .flex{
+    flex-direction:column;
+  }
+
+  h1,h2,h3{
+    text-align: center;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  footer p{
+    text-align: center !important;
+  }
+
+  hr.large{
+    display:none;
+  }
+
+  .info-cont{
+    display:none;
+  }
+}
+
+/*------------------------------------*\
+	Quienes somos
+\*------------------------------------*/
+
+
+section#quienes_somos {
+    padding: 7% 3% 6% 3%;
+}
+
+a.download-button{
+  margin-top: 3%;
+  background-color:#BD1B21;
+  border-radius: 4px; 
+  padding:10px;
+  color:white;
+  font-size: 109%;
+  letter-spacing: 1px;
+  font-family: Ubuntu-Light;
+}
+
+#quienes_somos p:nth-child(1){
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#quienes_somos p:nth-child(2){
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1%;
+}
+
+
+@media only screen and (max-width: 768px){
+#quienes_somos p:nth-child(1){
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#quienes_somos p:nth-child(2){
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1%;
+}
+
+}
+
+
+/*------------------------------------*\
+	Equipo
+\*------------------------------------*/
+
+section#equipo{
+  padding-top:3%;
+  padding-bottom: 2.5%;
+}
+
+#equipo p, #equipo h1{
+  color:white !important;
+}
+
+#equipo .text-cont{
+	padding-top:10%;
+}
+
+#equipo ul li:nth-child(2){
+  margin-top: 2%;
+}
+
+#equipo .col-lg-6:nth-child(2){
+    margin-left: -5%;
+    margin-top: 3%;
+}
+
+
+@media only screen and (max-width: 768px){
+  #equipo .text-cont{
+    padding-top:initial;
+  }
+
+
+  #equipo .col-lg-6:nth-child(2) {
+    margin-left: auto;
+    margin-top: auto;
+}
+}
+
+
+/*------------------------------------*\
+	Organizacion
+\*------------------------------------*/
+
+.gradient-right{
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+81,ffffff+97&1+71,0+100 */
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 71%, rgba(255,255,255,0.66) 81%, rgba(255,255,255,0.1) 97%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 71%,rgba(255,255,255,0.66) 81%,rgba(255,255,255,0.1) 97%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(255,255,255,1) 71%,rgba(255,255,255,0.66) 81%,rgba(255,255,255,0.1) 97%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+.gradient-left{
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+13,ffffff+81&0+8,0+8,1+49 */
+background: -moz-linear-gradient(left, rgba(255,255,255,0) 8%, rgba(255,255,255,0.12) 13%, rgba(255,255,255,1) 49%, rgba(255,255,255,1) 81%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(255,255,255,0) 8%,rgba(255,255,255,0.12) 13%,rgba(255,255,255,1) 49%,rgba(255,255,255,1) 81%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, rgba(255,255,255,0) 8%,rgba(255,255,255,0.12) 13%,rgba(255,255,255,1) 49%,rgba(255,255,255,1) 81%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+.no-gradient{
+  background-color: rgba(255,255,255,1);
+}
+
+
+section#organizacion {
+  padding:4% 2% 5% 2%;
+}
+
+#organizacion ul{
+	list-style: none;
+  margin-left: 29px;
+}
+
+#organizacion ul li h3{
+  margin:0;
+}
+
+#organizacion ul li{
+  padding: 10px;
+  border-radius: 2px;
+  margin-top: 14px;
+  /*width: 195px;*/
+  font-size: 1.96rem;
+  font-family: Ubuntu-Regular;
+  transition:background-color 0.5s;
+}
+
+#organizacion ul li:hover{
+  background: #911B21;
+  color:white;
+}
+
+
+
+
+
+#organizacion ul .big{
+  padding: 28px;
+  margin-bottom: 2px;
+  background: #911B21;
+  color:white;
+}
+
+
+
+#organizacion .esp-cont{
+     width: 1085px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#organizacion .center-block{
+      width: 826px;
+    height: 200px;
+}
+.esp-cont{
+	width: 962px;
+    height: 200px;
+}
+
+#rel-inst{
+  width: 250px !important;
+}
+
+@media only screen and (max-width: 767px){
+ .esp-cont{
+  width: auto;
+    height: auto;
+}
+
+#organizacion .left{
+  float:none;
+}
+
+
+#organizacion .esp-cont{
+   width:auto;
+   height:auto;
+}
+
+#organizacion .center-block{
+  width: auto;
+  height: auto;
+}
+
+#organizacion ul li{
+  margin-left:auto;
+  margin-right: auto;
+  display:block;
+}
+
+#organizacion .text-right,#organizacion .text-left{
+  text-align: center;
+}
+
+#rel-inst{
+  width: unset;
+}
+#organizacion ul {
+    margin-left: inherit;
+}
+
+
+
+#organizacion ul li {
+    width: 195px;
+}
+}
+
+@media only screen and (min-width: 768px )and (max-width: 1000px){
+.esp-cont{
+  width: auto;
+    height: auto;
+}
+
+#organizacion .left{
+  float:none;
+}
+
+
+#organizacion .esp-cont{
+   width:auto;
+   height:auto;
+}
+
+#organizacion .center-block{
+  width: auto;
+  height: auto;
+}
+
+#organizacion ul li{
+  margin-left:auto;
+  margin-right: auto;
+  display:block;
+}
+
+#organizacion .text-right,#organizacion .text-left{
+  text-align: center;
+}
+
+#rel-inst{
+  width: unset;
+}
+#organizacion ul {
+    margin-left: inherit;
+}
+
+
+
+#organizacion ul li {
+    width: 195px;
+}
+}
+@media only screen and (max-width: 1000px) and (orientation:landscape){
+#organizacion .center-block {
+    width: auto;
+    /* height: 200px; */
+}
+
+#organizacion .esp-cont {
+    width: auto;
+ 
+}
+#organizacion ul {
+
+    margin-left: 37px;
+}
+}
+
+
+/*------------------------------------*\
+  RESPONSABILIDAD SOCIAL
+\*------------------------------------*/
+
+
+section#resp-social{
+  padding:0 !important;
+}
+
+section#resp-social .row{
+  margin-top: 2%;
+
+}
+
+#resp-soc-background{
+  background-image: url("../imagenes/BkGround/resp_soc.jpg");
+  height: 563px;
+}
+
+#resp-social .slider-cont{
+  background-color: #F1F2F2;
+  border-top:8px solid #BD1B21;
+    height: 176px;
+}
+#resp-social .slider-cont h3{
+  letter-spacing: 1px;
+  font-family: Ubuntu-Bold;
+  font-size:2rem;
+
+}
+
+/*------------------------------------*\
+	Porque
+\*------------------------------------*/
+#porque{
+  background-color: #911B21;
+  padding-bottom:2%;
+  padding-top: 2.5%;
+}
+
+#porque .flex {
+    align-content: unset;
+    align-items: unset;
+}
+
+#porque p, #porque h1{
+  color:white;
+  
+}
+
+#porque p{
+  font-family: Ubuntu-Light;
+  font-size: 1.29rem;
+  line-height: 20px;
+}
+
+#porque hr {
+  background-color: white;
+}
+
+#porque hr.large{
+      width: 90%;
+    height: 1px;
+    z-index: 1;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    margin-top: 50px!important;
+    z-index: 0;
+}
+
+#porque .img-cont{
+    box-sizing: border-box;
+    background-color: white;
+    -webkit-border-radius: 1100%;
+    -moz-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    padding: 24px;
+}
+
+
+#porque ul{
+	list-style: none;
+	/*width: 778px;*/
+  z-index: 1000;
+}
+
+
+#porque ul li{
+    /* margin-left: -91%; */
+    text-align: center;
+    z-index: 1000;
+    width: 282px;
+
+}
+
+#porque .subtitulo{
+  margin-top: 20px;
+  margin-bottom: 0;
+  line-height: 14px;
+  font-family: Ubuntu-Regular;
+}
+
+
+@media only screen and (max-width: 768px){
+  #porque ul{
+  width: auto;
+}
+
+#porque .flex {
+        align-content: flex-start;
+    align-items: center;
+}
+}
+
+
+/*------------------------------------*\
+  Valores
+\*------------------------------------*/
+
+
+#valores p{
+  line-height: 1px;
+      line-height: 25px;
+      font-family: Ubuntu-Regular;
+}
+
+#valores  img{
+  /*margin-right: 25px;*/
+}
+
+#valores .right {
+      text-align: center !important;
+    width: 188px;
+
+}
+
+#valores .row:nth-child(1),#valores .row:nth-child(3){
+  background-color: white;
+    height: 251px;
+    padding: 5%;
+}
+
+#valores .row:nth-child(3){
+
+}
+
+#valores .row:nth-child(2){
+  padding-top:2%;
+}
+
+
+
+#valores .row:hover{
+    background-color: #E6E7E8;
+
+}
+
+#valores h4{
+  font-size: 2.78rem;
+  letter-spacing: 1px;
+  width: auto;
+  float: left;
+  margin-left: 9%;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px){
+  #valores ul{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+
+#valores .right{
+      float: none;
+    height: 87px;
+    width: 92px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+
+}
+
+#valores .right .left{
+  float:none;
+  text-align: center;
+}
+
+#valores .row{
+  height: auto;
+}
+#valores img{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#valores h4 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#valores .row:nth-child(1), #valores .row:nth-child(3) {
+     padding: 2%; 
+     height: auto;
+}
+}
+
+@media only screen and (max-width: 1000px) and (orientation:landscape){
+
+}
+
+
+/*------------------------------------*\
+  reconocimientos
+\*------------------------------------*/
+
+section#reconocimientos .row:nth-child(1){
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+section#reconocimientos .row:nth-child(2){
+  width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#rec-background{
+  background-image: url("../imagenes/reconocimientos/background.jpg");
+  height: 740px;
+  margin-top: -158px;
+
+}
+
+#reconocimientos ul li{
+  width: 275px;
+  text-align: center;
+  background-color: #F1F2F2;
+  border-radius:4px;
+  padding:24px;
+}
+
+
+section#reconocimientos h5{
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 1024px){
+
+#reconocimientos ul li{
+  margin-top: 10px;
+}
+
+
+}
+
+
+/*------------------------------------*\
+  Nuestra tecnologia
+\*------------------------------------*/
+
+#tecnologia{
+  padding:2%;
+}
+
+#tecnologia h2{
+      font-size: 2.5rem;
+    letter-spacing: 3px;
+}
+
+#tecnologia ul{
+  width: 64%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#tecnologia ul li{
+    padding: 35px;
+    /* border: 1px solid grey; */
+    width: 200px;
+    height: 200px;
+    flex: 1 1 auto;
+    /* margin-top: 1%; */
+    /* margin-left: 32px; */
+    margin: 18px 18px 18px 18px;
+    max-width: 231px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    font-family: Ubuntu-Regular;
+    transition: background-color 0.5s;
+    max-width: 200px;
+}
+
+
+/*#tecnologia ul li:hover{
+  background-color: rgba(189,27,33,0.85);
+  transition:background-color 0.5s;
+
+}*/
+
+
+#tecnologia ul li .one-line{
+  line-height: 71px;
+}
+
+
+/*------------------------------------*\
+  Clientes
+\*------------------------------------*/
+section#clientes{
+   padding: 4% 2% 12%;
+  background-color: #F1F2F2;
+}
+
+section#clientes .row:nth-child(1){
+  padding-bottom: 3%;
+}
+
+/*------------------------------------*\
+  servicios
+\*------------------------------------*/
+#lista-servicios{
+  padding:3%;
+}
+
+#lista-servicios p {
+  font-size: 1.5rem;
+    line-height: 24px;
+}
+
+#lista-servicios .container{
+  width: 937px;
+
+}
+
+#title-servicios{
+  background-color: #911B21;
+  padding:1% 2% 3%;
+}
+
+
+#title-servicios h1,#title-servicios p{
+  color:white;
+}
+
+#title-servicios hr{
+  background-color: white;
+}
+
+
+#below-servicios{
+  background-color: #BD1B21;
+    width: 302px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;
+    margin-top: -29px;
+    border-radius: 8px;
+    color: white;
+}
+
+
+#lista-servicios h4{
+  font-family: Ubuntu-Bold;
+}
+
+#below-servicios h3{
+      color: white !important;
+    font-family: Ubuntu-Light;
+    font-size: 1.60rem;
+    margin-top: 9px;
+    line-height: 13px;
+}
+
+
+
+@media only screen and (max-width: 768px){
+ #below-servicios{
+    margin-top: -10px;
+  
+}
+
+
+
+#lista-servicios h4 {
+    text-align: center;
+}
+
+#lista-servicios .container {
+     width: auto; 
+}
+
+}
+
+@media only screen and (max-width: 768px){
+
+
+}
+
+
+/*------------------------------------*\
+  contacto
+\*------------------------------------*/
+
+#contacto-form{
+  padding:2%;
+}
+
+#contacto-title-map{
+  padding-top:5%;
+}
+
+#contacto-form i{
+  color:#BD1B21;
+  transition:color 0.5s;
+}
+
+#contacto-form i:hover {
+    
+    color:black;
+    transition:color 0.5s;
+    
+}
+
+
+
+/*#contacto-form .left{
+  margin-left: 5%;
+}*/
+
+/*#contacto-form i.left{
+  margin-left: 0;
+}*/
+
+#contacto-form img{
+  margin-top: 5%;
+}
+
+input{
+  height:21px !important;
+}
+
+textarea{
+  height: 80px !important;
+}
+
+
+#contacto-form ul li{
+  border-bottom:1px solid #bbbbbb;
+}
+
+#contacto-form ul li:nth-child(2), #contacto-form ul li:nth-child(3) {
+    margin-top: 20px;
+}
+
+#contacto-form ul li h3{
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+#contacto-form  p{
+  font-family: Ubuntu-Regular;
+  line-height: initial;
+}
+
+#contacto-form h3>span{
+  font-family:RobotoCondensed-Light;
+}
+
+#contacto-form p>span{
+  font-family: Ubuntu-Bold;
+}
+
+@media only screen and (max-width: 768px){
+
+
+  #contacto-form i.left{
+  margin-left: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#contacto-form .left {
+      text-align: center;
+    width: 100%;
+    margin:auto !important;
+}
+
+#contacto-form img{
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+}
+
+
+
+
+/*------------------------------------*\
+	Owl theme
+\*------------------------------------*/
+
+/* -- dots -- */
+
+.owl-dots{
+	margin-top: -5% !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    border: none;
+    background: white;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+    opacity: 0.8;
+}
+
+
+.owl-carousel .margin {
+    margin-top: 78px !important;
+}
+
+/* -- nav -- */
+
+.owl-theme .owl-nav {
+    opacity: 1;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+}
+
+.owl-theme:hover .owl-nav {
+    opacity: 1;
+}
+
+.owl-theme .owl-nav [class*='owl-'] {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    background: red;
+    color: #FFF;
+  	padding: 0px;
+  	width: 50px;
+  	height: 50px;
+  	border-radius:3px;
+  	line-height: 50px;
+  	margin: 0;
+}
+
+.owl-theme .owl-prev {
+    left: 0px;
+}
+
+.owl-theme .owl-next {
+    right: 0px;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+        opacity: 0.8;
+    background: black;
+    transition: background 0.5s;
+}
+
+
+button:focus{
+  outline:none;
+}
+
+
+@media screen and (max-width: 768px)  {
+  .owl-carousel .margin {
+    margin-top: auto !important;
+}
+}
+
+
+@media screen and (max-width: 1000px) and (orientation:landscape) {
+  .owl-carousel .margin {
+    margin-top: 20px !important;
+}
+}
+
+/*------------------------------------*\
+  Back to top
+\*------------------------------------*/
+
+#back-to-top {
+    display:block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #BD1B21;
+    border-radius:3px;
+    color: #FFF;
+    z-index: 9999;
+    -webkit-transition: 0.2s opacity;
+    transition: 0.2s opacity;
+    cursor: pointer;
+}
+
+#back-to-top:after {
+    content: "\f106";
+    font-family: 'FontAwesome';
+}
+
+#back-to-top:hover {
+    opacity: 0.8;
+}
+
+
+
+/*------------------------------------*\
+  Preloader
+\*------------------------------------*/
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2b2a2a;
+    z-index: 10043;
+    height: 100vh;
+    opacity: 0.96;
+}
+
+#status {
+ position: relative;
+    /* left: 50%; */
+    /* top: 50%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16%;
+}
+
+.spinner-sm {
+    border: 5px solid #bbbbbb;
+    border-top: 5px solid #BD1B21;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+
+/*------------------------------------*\
+  Modal
+\*------------------------------------*/
+.modal-header {
+    border-bottom: none !important;
+    padding: 9px 0px 0px 0px !important;
+}
+
+.modal-content{
+  background:url("../imagenes/reconocimientos/popup/1-bk.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 665px;
+  padding: 30px 30px 30px 30px;
+  border-radius: inherit;
+}
+
+#shopping-modal .modal-content{
+  min-height: 442px;
+
+}
+
+.modal-content ul {
+  list-style-image: url('../imagenes/icon/modal-icon.png');
+
+}
+
+.modal-content ul li p{
+  font-family: Ubuntu-Regular;
+}
+
+.modal-content ul li p span{
+  font-family: Ubuntu-Bold;
+}
+
+
+
+.modal-dialog {
+    width: 56% !important;
+    border: 5px solid red;
+}
+
+@media only screen and (max-width: 768px){
+ 
+.modal-dialog {
+    width: auto !important;
+}
+
+
+}

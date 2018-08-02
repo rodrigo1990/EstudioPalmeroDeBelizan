@@ -1,0 +1,41 @@
+@font-face{
+	font-family:Ubuntu-Regular;
+	src:url("Ubuntu/Ubuntu-Regular.ttf");
+}
+
+@font-face{
+	font-family:Ubuntu-Light;
+	src:url("Ubuntu/Ubuntu-Light.ttf");
+}
+
+@font-face{
+	font-family:Ubuntu-Bold;
+	src:url("Ubuntu/Ubuntu-Bold.ttf");
+}
+
+
+@font-face{
+	font-family:RobotoCondensed-Bold;
+	src:url("Roboto_Condensed/RobotoCondensed-Bold.ttf");
+}
+
+@font-face{
+	font-family:RobotoCondensed-Regular;
+	src:url("Roboto_Condensed/RobotoCondensed-Regular.ttf");
+}
+
+
+@font-face{
+	font-family:RobotoCondensed-Light;
+	src:url("Roboto_Condensed/RobotoCondensed-Light.ttf");
+}
+
+@font-face{
+	font-family:Lato;
+	src:url("Lato/Lato-Regular.ttf");
+}
+
+@font-face{
+	font-family: Montserrat-Bold;
+	src:url("Montserrat/Montserrat-Bold.ttf");
+}
