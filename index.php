@@ -62,24 +62,7 @@
 		</div>
 	</div>
 	<div class="row ">
-		<div class="esp-cont" style="   ">
-			<div class="center-block" style="">
-				<ul class="left">
-					<li class="text-right gradient-left">Administración</li>
-					<li class="text-right gradient-left"  id="rel-inst">Relaciones Institucionales</li>
-					<li class="text-right gradient-left">Operaciones</li>
-				</ul>
-				<ul class="left">
-					<li class="text-center big no-gradient">Soluciones <br> exitosas</li>
-					<li class="text-center no-gradient">Sistemas y tecnología</li>
-				</ul>
-				<ul class="left">
-					<li class="text-left gradient-right">Calidad</li>
-					<li class="text-left gradient-right">Recursos humanos</li>
-					<li class="text-left gradient-right">Coaching</li>
-				</ul>
-			</div>
-		</div>
+		<img class="img-responsive center-block" src="imagenes/organizacion/grafico-03.png" alt="">
 	</div>
 </section>
 
@@ -204,14 +187,14 @@
 <section id="lista-servicios" class="background" style="background-image:url(imagenes/BkGround/nuestros_servicios.jpg)">
 	<div class="row" >
 		<div class="container">
-			<div class="col-lg-6 col-md-6 col-sm-6">
+			<div class="col-lg-6 col-md-6 col-sm-12">
 				<h4>1 ENRIQUECIMIENTO DE DATOS</h4>
 				<p>Previa a dar de alta la cartera derivada por el cliente y comenzar 
 				 las gestiones pertinentes, se realiza un enriquecimiento de datos para facilitar el contacto efectivo del deudor. Asignamos 
 				 personal específicamente para realizar esta tarea y que los gestores se concentren en la negociación efectiva.
 				</p>
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+			<div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
 				<h4>4 ETAPA DE NEGOCIACIÓN</h4>
 				<p>Los gestores que forman parte del equipo de EPB&A han pasado por un proceso de selección adaptado a las necesidades del puesto 
 					y de la tarea. Cada uno de ellos es capacitado continuamente para lograr la conciliación y el cobro efectivo de la deuda de acuerdo a 
@@ -222,13 +205,13 @@
 	</div>
 	<div class="row">
 		<div class="container">
-			<div class="col-lg-6 col-md-6 col-sm-6">
+			<div class="col-lg-6 col-md-6 col-sm-12">
 				<h4>2 BUSINESS INTELLIGENCE</h4>
 				<p>Se analiza cada cuenta que integra la cartera para dar con un  score de acuerdo al perfil de cada deudor, y establecer 
 					estrategias de cobranza eficaces en base al comportamiento y  pagos de referencia.
 				</p>
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+			<div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
 				<h4>5 CALIDAD DEL SERVICIO</h4>
 				<p>Todas las gestiones son monitoreadas para asegurar los  métodos y formas mas eficaces y apropiadas de gestión.</p>
 			</div>
@@ -236,13 +219,13 @@
 	</div>
 	<div class="row">
 		<div class="container">
-			<div class="col-lg-6 col-md-6 col-sm-6">
+			<div class="col-lg-6 col-md-6 col-sm-12">
 				<h4>3 IVR, CAMPAÑAS Y MAILING</h4>
 				<p>Se activan llamadores automáticos a los teléfonos fijos, una  campaña de mensajes de texto a los teléfonos celulares y un 
 					mailing automático a las casillas de correo de cada una de las  cuentas.</p>
 			</div>
 
-			<div class="hidden-lg hidden-md hidden-sm col-xs-12">
+			<div class="hidden-lg hidden-md col-sm-12 col-xs-12">
 				<h4>4 ETAPA DE NEGOCIACIÓN</h4>
 				<p>Los gestores que forman parte del equipo de EPB&A han pasado por un proceso de selección adaptado a las necesidades del puesto 
 					y de la tarea. Cada uno de ellos es capacitado continuamente para lograr la conciliación y el cobro efectivo de la deuda de acuerdo a 
@@ -250,12 +233,12 @@
 				</p>
 			</div>
 
-			<div class="col-lg-6 col-md-6 col-sm-6 hidden-xs">
+			<div class="col-lg-6 col-md-6 col-sm-12 hidden-xs">
 				<h4>5 CALIDAD DEL SERVICIO</h4>
 				<p>Todas las gestiones son monitoreadas para asegurar los  métodos y formas mas eficaces y apropiadas de gestión.</p>
 			</div>
 
-			<div class="col-lg-6 col-md-6 col-sm-6">
+			<div class="col-lg-6 col-md-6 col-sm-12">
 				
 			</div>
 		</div>
@@ -311,8 +294,8 @@
 			</div>
 			<div>
 				<ul class="flex">
-					<li><img src="imagenes/clientes/10.png" alt=""></li>
-					<li><img src="imagenes/clientes/11.png" alt=""></li>
+					<li><img src="imagenes/clientes/10.png" class="achicar" alt=""></li>
+					<li><img src="imagenes/clientes/11.png" class="achicar" alt=""></li>
 				</ul>
 			</div>
 		
