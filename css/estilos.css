@@ -777,13 +777,20 @@ section#clientes .row:nth-child(1){
 #contacto-form i{
   color:#BD1B21;
   transition:color 0.5s;
+  margin-right: 5px;
+  vertical-align: text-top;
 }
 
-#contacto-form i:hover {
+#contacto-form i:hover:not(.fa-envelope):not(.fa-phone-volume):not(.fa-whatsapp) {
     
     color:black;
     transition:color 0.5s;
     
+}
+
+.fa-whatsapp  {
+  color:#fff !important;
+  background:linear-gradient(#25d366,#25d366)10px 84%/-2px 9px no-repeat, radial-gradient(circle at center, #25d366 63%,transparent 0);
 }
 
 
@@ -835,8 +842,14 @@ textarea{
   font-family: Ubuntu-Bold;
 }
 
-@media only screen and (max-width: 768px){
+#whatsapp-btn{
+  cursor:pointer;
+  color:#333;
+}
 
+
+
+@media only screen and (max-width: 768px){
 
   #contacto-form i.left{
   margin-left: auto;
@@ -857,6 +870,8 @@ textarea{
   margin-right: auto;
   display:block;
 }
+
+
 
 }
 
@@ -881,6 +896,8 @@ textarea{
   margin-right: auto;
   display:block;
 }
+
+
 }
 
 

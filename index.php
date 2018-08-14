@@ -381,8 +381,10 @@
 					<img src="imagenes/logo-header-contact.png" alt="Estudio Palmero de Belizan" >
 					<h3>CONTACTO</h3>
 					<p>Reconquista 660 (1003), C.A.B.A, Argentina</p>
-					<p><span>Tel:</span>+54 11 7078 8500</p>
-					<p><span>Mail:</span>info@epb.com.ar</p>
+					<p><i class="far fa-envelope"></i>info@epb.com.ar</p>
+					<p><i class="fas fa-phone"></i>+54 11 7078 8500</p>
+					<a  id="whatsapp-btn"><p><i class="fab fa-whatsapp"></i>+54 11 2166 3444</p></a>
+					
 					
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
