@@ -816,6 +816,11 @@ textarea{
 }
 
 
+
+#contacto-form ul li a {
+  color:#911B21;
+}
+
 #contacto-form ul li{
   border-bottom:1px solid #bbbbbb;
 }
@@ -846,6 +851,8 @@ textarea{
   cursor:pointer;
   color:#333;
 }
+
+
 
 
 
