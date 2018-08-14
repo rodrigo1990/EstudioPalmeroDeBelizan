@@ -396,9 +396,9 @@
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 				<ul>
-					<li><h3>Contacto <span>Comercial</span> <span class="right">></span></h3></li>
-					<li><h3>Trabaja <span>con nosotros</span> <span class="right">></span></h3></li>
-					<li><h3>Gestión <span>de cobranzas</span> <span class="right">></span> </h3></li>
+					<li><a href="mailTo:info@epb.com.ar?subject='Contacto%Comercial'"><h3>Contacto <span>Comercial</span> <span class="right">></span></h3></a></li>
+					<li><a href="mailTo:busquedas@epb.com.ar?subject='RRHH'"><h3>Trabaja <span>con nosotros</span> <span class="right">></span></h3></li>
+					<li><a href="mailTo:info@epb.com.ar?subject='Contacto%Comercial'"><h3>Gestión <span>de cobranzas</span> <span class="right">></span> </h3></a></li>
 				</ul>
 			</div>
 		</div>
